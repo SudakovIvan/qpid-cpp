@@ -39,8 +39,8 @@ namespace qpid {
 namespace sys {
 namespace windows {
 
-QPID_IMPORT bool processExiting;
-QPID_IMPORT bool libraryUnloading;
+QPID_IMPORT extern bool processExiting;
+QPID_IMPORT extern bool libraryUnloading;
 
 }}} // namespace qpid::sys::SystemInfo
 
